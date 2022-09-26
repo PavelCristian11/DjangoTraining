@@ -4,4 +4,11 @@
 <h2>{{ post.title }}</h2>
 <p>{{ post.body }}</p>
 </div>
+<div class="nav-left">
+    <a href="{% url 'post_edit' post.pk%}">+ Edit Blog Post</a>
+</div>
+<div class="nav-right">
+    <a href="{% url 'post_delete' post.pk%}">- Dekete Blog post</a>
+</div>
+
 {% endblock content %}
