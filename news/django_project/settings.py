@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(3#r(hi1r7*wi)&!fxkft#xuo_(93o8hzq-db@x4y2l##9anse
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.1.227']
 
 
 # Application definition
@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / 'database/db.sqlite3',
     }
 }
 
@@ -119,8 +119,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATIC_ROOT = 'static'
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'accounts.CustomUser'
+#DEFAULT_AUTO_FIELD = 'accounts.CustomUser'
+#
+AUTH_USER_MODEL = "accounts.CustomUser"
