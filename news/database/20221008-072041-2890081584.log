@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: Password reset on 192.168.1.227
+From: webmaster@localhost
+To: pavelcristian@live.com
+Date: Sat, 08 Oct 2022 07:20:41 -0000
+Message-ID: <166521364179.11256.7610591717743740170@rpi001>
+
+
+You're receiving this email because you requested a password reset for your user account at 192.168.1.227.
+
+Please go to the following page and choose a new password:
+
+http://192.168.1.227/accounts/reset/MQ/bcyseh-1074f8b3ff5f48c73668d5a0b76aa0c2/
+
+Your username, in case you’ve forgotten: pi
+
+Thanks for using our site!
+
+The 192.168.1.227 team
+
+
+
+-------------------------------------------------------------------------------
